@@ -10,7 +10,7 @@
 body {
   background-color: rgb(6, 7, 12);
   font-family: inter;
-  background-image: url(background-img.png);
+  background-image: url("Images/Lavender.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -83,7 +83,7 @@ p {
   font-size: 1.2rem;
   color: lightgray;
   line-height: 1.5;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 /* button */
@@ -97,7 +97,7 @@ p {
   border-radius: 8px;
   margin-right: 50px;
   background-color: #3FA2F6;
-  margin-bottom: 180px;
+  margin-bottom: 40px;
   transition: background-color 0.12s, border 0.12s, color 0.21s, padding 0.12s;
 }
 
@@ -155,16 +155,20 @@ cursor: pointer;
 /* Right section */
 
 .hero-right {
-  transition: background-color 3s, box-shadow 3s;
+  background-image: url("images/lavender.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 500px;
+  transition: background-color 0.5s, box-shadow 0.5s;
   cursor: pointer;
 }
 .hero-right:hover {
-  background-color: rgba(6, 7, 12, 0.705);
+  background-color: rgba(6, 7, 12, 0.25);
   box-shadow: 
     0 0 20px rgb(6, 7, 12),
     0 0 50px rgb(6, 7, 12),
     0 0 100px rgb(6, 7, 12),
-    0 0 200px rgb(6, 7, 12);
 }
 
 /* Animations */
