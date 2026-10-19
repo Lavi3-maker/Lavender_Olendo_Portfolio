@@ -10,7 +10,6 @@
 body {
   background-color: rgb(6, 7, 12);
   font-family: inter;
-  background-image: url("Images/Lavender.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -155,7 +154,7 @@ cursor: pointer;
 /* Right section */
 
 .hero-right {
-  background-image: url("images/lavender.jpg");
+  background-image: url("Images/Lavender.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
